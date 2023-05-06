@@ -1,0 +1,14 @@
+micronaut:
+  application:
+    name: treeleafassignment
+netty:
+  default:
+    allocator:
+      max-order: 3
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/blog
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: b!bh@v2000
+    schema-generate: CREATE_DROP
